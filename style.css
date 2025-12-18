@@ -1,16 +1,21 @@
+ :root {
+    --main-color: #26825d
+ }
+
 h1 {
     color: #de095e;
     font-size: 45px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #ede4e6;
-    margin: 0;
+    margin: 0%;
+    height: 5rem;
 }
 h2 {
     color: #c21f4d;
     font-family: 'Times New Roman', Times, serif;
     font-size: 34px;
 }
-.another-class {
+.block {
     background-color:#ff5471
 }
 img {
