@@ -1,14 +1,12 @@
- :root {
-    --main-color: #26825d
- }
-
 h1 {
     color: #de095e;
     font-size: 45px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #ede4e6;
-    margin: 0%;
-    height: 5rem;
+    margin: 0;
+    height: 3rem;
+    padding: 0%;
+    text-align: center;
 }
 h2 {
     color: #c21f4d;
@@ -20,13 +18,20 @@ h2 {
 }
 img {
     border-radius: 25px;
+    height: auto;
+    width: auto;
 }
 body {
-    background-color: #fcd847;
+    background-color: #8dbfc7;
 }
 #block {
-    color: #ff5471;
+    color: #11418f;
 }
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.Part {
+    margin: 70;
+    padding: 89;
+    background: #ede4e6;
 }
