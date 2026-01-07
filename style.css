@@ -17,9 +17,8 @@ h2 {
     background-color:#ff5471
 }
 img {
-    border-radius: 25px;
+    max-width: 100%;
     height: auto;
-    width: auto;
 }
 body {
     background-color: #8dbfc7;
@@ -28,10 +27,18 @@ body {
     color: #11418f;
 }
 p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #61393e;
 }
-.Part {
-    margin: 70;
-    padding: 89;
+#Part {
+    margin: 50px;
+    padding: 30px;
     background: #ede4e6;
+    justify-content: center;
+    text-align: center;
+}
+#evil {
+    border: #c21f4d;
+    padding: 20px;
+    border-radius: 20px;
 }
