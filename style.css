@@ -1,76 +1,32 @@
-h1 {
-    color: #de095e;
-    font-size: 45px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #ede4e6;
-    margin: 0;
-    height: 3rem;
-    padding: 0%;
-    text-align: center;
-}
-h2 {
-    color: #c21f4d;
+* {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 34px;
-}
-img {
-    max-width: 100%;
-    height: auto
-}
-body {
-    background-color: #8dbfc7;
+    color: #b02000;
+    font-weight: 67000;
 }
 
-p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #61393e;
-    font-size: 20px;
+body {
+    background-color: #ff984a;
 }
-#Part {
-    margin: 30px;
-    padding: 20px;
-    background: #ede4e6;
-    justify-content: center;
-    text-align: center;
-    height: 1rem;
-    border-radius: 15%;
-}
-#evil {
-    border: #c21f4d;
-    border: solid;
-    width: 600px;
-    color: #ff5471;
-    background-color: #ede4e6;
-    padding: 18px;
-    cursor: pointer;
+button {
+    background-color: #04cbcf;
+    border: #164c8a;
     border-radius: 20px;
-    transition: all 500ms;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    transition: all 300ms ;
-    font-size: medium;
+    border-width: 2px;
+    border-style: solid;
+    size: 10px;
+    color: #164c8a;
+}
+
+button:hover {
+transform: scale(2px);
+}
+.Search-Div {
+    align-items: center;
+    padding: 10px;
+}
+input {
     
 }
-#evil:hover {
-    background-color: #b5a4a3;
-    transition-property: all 200ms;
-    transform: scale(110%);
-    font-size: large;
-}
-.ok {
-    outline: #ff5471; 
-}
-.inputok:focus {
-    outline: #c21f4d;
-    font-size: medium;
-    font-family: monospace;
-    background-color: #42adff;
-}
-.ko {
-    outline: #ff5471; 
-}
-.inputko:focus {
-    outline: #c21f4d;
-    font-size: medium;
-    font-family: monospace;
-    background-color: #ff9142;
+input:focus {
+    background-color: #ebe6d5;
 }

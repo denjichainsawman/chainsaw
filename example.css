@@ -1,4 +1,4 @@
-h1 {
-    font-size: larger;
-    color: blue;
+.newClass {
+    color: rgb(90, 197, 61);
+    scale: calc(30vh + 30px);
 }
