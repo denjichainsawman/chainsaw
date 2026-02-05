@@ -1,21 +1,21 @@
-const search = document.querySelector(".search");
-const button = document.querySelector(".Search-button");
-const picture = document.querySelector(".picture");
-const container = document.querySelector(".container")
-const cardTemplate = document.querySelector(".cardTemplate")
+const button = document.querySelector("button");
     
-console.log(response)
-async function getCharacter(name) {
-    const response = await fetch("https://chainsawmanapi.pythonanywhere.com/api/character/Pochita/");
-    const Data = await respond.json;
+async function Data() {
+  const url = "https://meowfacts.herokuapp.com/";
+  try {
+    const response = await fetch("https://meowfacts.herokuapp.com/");
+    if (!response.ok) {
+      throw new Error(`Response status: ${response.status}`);
+    }
+
+    const result = await response.json();
+    console.log(yayay);
+  } catch (error) {
+    console.error(gahhhh);
+  }
 }
 
 button.addEventListener("click", function () {
-    console.log("yay");
-    getCharacter(search.value);
+    console.log("works");
+    Data(search.Value)
 });
-
-const people = {
-    {name: "Pochita", status: "Alive", descrpiton: "Pochita is the chainsaw Devil, and is the first devil thats introduced."}
-    {name: "Angel Devil", status: "Dead", descrpiton: "Angel Devil is the devil for the fear of devils. beahhh im so tired gah nobdoy is gpnna see this site but my oomfs i dont gotta finish nor take this too seriously HES GAY."}
-}

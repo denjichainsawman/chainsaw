@@ -2,10 +2,26 @@
     font-family: 'Times New Roman', Times, serif;
     color: #b02000;
     font-weight: 67000;
+    margin: 250;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    font-size: 50px;
+}
+p {
+    font-size: 50;
+
+}
+.center {
+    max-width: 500px;
+    margin: auto;
+    padding: 20;
 }
 
 body {
-    background-color: #ff984a;
+    background-color:#f0ced8;
+    padding: auto;
 }
 button {
     background-color: #04cbcf;
@@ -15,18 +31,37 @@ button {
     border-style: solid;
     size: 10px;
     color: #164c8a;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.button-center {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 450px;
 }
 
 button:hover {
 transform: scale(2px);
+background-color: #0fa7c5
+
 }
 .Search-Div {
     align-items: center;
     padding: 10px;
 }
-input {
+
+@media (prefers-color-scheme: dark) {}
+
+footer {
     
-}
-input:focus {
-    background-color: #ebe6d5;
+    background-color: #ef9fb6d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: 130px;
+    width: 250px;
 }
